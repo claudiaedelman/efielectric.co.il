@@ -23,15 +23,7 @@ footer .fa {
 .fa-phone .fa-thumbs-up{
     color:gainsboro;
 }
-/*Tablet view*/
-@media (max-width: 768px) {
- 
-}
 
-/*Mobile view*/
-@media (max-width: 400px) {
-  
-}
 
 section {
     padding-top: 20px;
@@ -85,5 +77,28 @@ h6{
     color: grey;
 }
 
+#imgabout{
+    width: 250px;
+    height: 350px;
+}
 #tips{    padding-bottom: 42px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 51px;
+}
+
+/*Tablet view*/
+@media (max-width: 768px) {
+ 
+}
+
+/*Mobile view*/
+@media (max-width: 400px) {
+    .masthead {
+        background:lightgray;
+        height: 600px;
+    
+    }
+
+  
 }
