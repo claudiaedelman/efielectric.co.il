@@ -1,0 +1,50 @@
+{
+    "short_name": "אפי חשמלאי מוסמך",
+    "name": "אפי חשמלאי מוסמך לתיקון כל תקלת חשמל",
+    "start_url": "index.html",
+    "display": "standalone",
+    "description": "תיקון קצר, חשמלאי במרכז",
+    "theme_color": "#909090",
+    "icons": [{
+            "src": "icon/apple-icon-57x57.png",
+            "sizes": "57x57",
+            "type": "image/png"
+        }, {
+            "src": "icon/apple-icon-60x60.png",
+            "sizes": "60x60",
+            "type": "image/png"
+        },
+        {
+            "src": "icon/apple-icon-76x76.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        },
+        {
+            "src": "icon/apple-icon-120x120.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "icon/apple-icon-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "icon/apple-icon-152x152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+
+        {
+            "src": "icon/favicon.ico",
+            "sizes": "72x72 96x96 128x128 256x256",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icon/maskable_icon.png",
+            "sizes": "any",
+            "purpose": "any maskable",
+            "type": "image/png"
+        }
+    ]
+}
