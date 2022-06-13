@@ -12,38 +12,33 @@ body {
     overflow-x: hidden;
 }
 
-
 #services .fa {
     color: #e9deb2;
 }
+
 footer .fa {
     color: #e9deb2;
 }
 
-.fa-phone .fa-thumbs-up{
-    color:gainsboro;
+.fa-phone .fa-thumbs-up {
+    color: gainsboro;
 }
-
 
 section {
     padding-top: 20px;
 }
 
 .masthead {
-    background: url(../img/masthead.jpg) 100% 0 no-repeat;
+    background: url(../img/masthead.webp) 100% 0 no-repeat;
     background-size: cover;
     height: 600px;
-
 }
 
 .gradient-custom {
-    background: radial-gradient(50% 123.47% at 50% 50%, #00FF94 0%, #720059 100%), linear-gradient(121.28deg, #669600 0%, #FF0000 100%), linear-gradient(360deg,
-            #0029FF 0%, #8FFF00 100%), radial-gradient(100% 164.72% at 100% 100%, #6100FF 0%, #00FF57 100%), radial-gradient(100% 148.07% at 0% 0%, #FFF500 0%, #51D500 100%);
+    background: radial-gradient(50% 123.47% at 50% 50%, #00FF94 0%, #720059 100%), linear-gradient(121.28deg, #669600 0%, #FF0000 100%), linear-gradient(360deg, #0029FF 0%, #8FFF00 100%), radial-gradient(100% 164.72% at 100% 100%, #6100FF 0%, #00FF57 100%), radial-gradient(100% 148.07% at 0% 0%, #FFF500 0%, #51D500 100%);
     background-blend-mode: screen, color-dodge, overlay, difference, normal;
     padding-top: 20px;
-
 }
-
 
 .carousel-indicators [data-mdb-target] {
     border-radius: 50%;
@@ -54,51 +49,63 @@ section {
 #about {
     padding-top: 10px;
     padding-bottom: 30px;
-
 }
 
-#contact{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-top: 51px;
-
-}
-#services{
+#contact {
     padding-top: 30px;
     padding-bottom: 30px;
     margin-top: 51px;
 }
 
-#contact div > a{
+#services {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 51px;
+}
+
+#contact div>a {
     margin-bottom: 65px;
 }
 
-h6{
+h6 {
     color: grey;
 }
 
-#imgabout{
+#imgabout {
     width: 250px;
     height: 350px;
 }
-#tips{    padding-bottom: 42px;
+
+#tips {
+    padding-bottom: 42px;
     padding-top: 30px;
     padding-bottom: 30px;
     margin-top: 51px;
 }
 
+
 /*Tablet view*/
-@media (max-width: 768px) {
- 
-}
+
+@media (max-width: 768px) {}
+
 
 /*Mobile view*/
+
 @media (max-width: 400px) {
     .masthead {
-        background:lightgray;
+        /* background: lightgray; */
         height: 600px;
-    
     }
-
-  
+    footer {
+        display: none;
+    }
+    #whatsappnav {
+        display: none;
+    }
+    #phonenav {
+        display: none;
+    }
+    #pabout {
+        padding: 3rem!important;
+    }
 }
