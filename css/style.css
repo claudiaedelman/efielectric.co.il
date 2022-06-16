@@ -174,7 +174,21 @@ button  > a{
 } 
 /*Tablet view*/
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    #imgabout{
+        height: min-content;
+        width: min-content;
+        float: none;
+
+    }
+    #pabout {
+        font-size: 20px;
+        padding: 82px;
+    }
+    #foot {
+        display: none;
+    }
+}
 
 
 /*Mobile view*/
